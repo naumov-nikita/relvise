@@ -1,0 +1,64 @@
+*
+ {
+	box-sizing: border-box;
+}
+/* *::after,
+*::before {
+	box-sizing: border-box;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 14px;
+  color: #252b42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+input, textarea, select, button {
+  font: inherit;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+._container {
+  max-width: 1046px;
+  margin: 0 auto;
+  box-sizing: content-box;
+  padding: 0 15px;
+}
