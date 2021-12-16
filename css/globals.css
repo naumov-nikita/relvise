@@ -23,6 +23,8 @@ body {
   font-size: 14px;
 	letter-spacing: 0.2px;
   color: #252b42;
+
+	background-color: #fafafa;
 }
 
 h1,
@@ -79,8 +81,6 @@ img {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-
-	background: #fafafa;
 }
 
 .icon {
