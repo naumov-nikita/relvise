@@ -64,6 +64,11 @@
   font-size: 14px;
   line-height: 171%;
 }
+@media (max-width: 670px) {
+	.menu__link  {
+		font-size: 20px;	
+	}
+}
 @media (max-width: 470px) {
 	.menu__link  {
 		font-size: 18px;	
